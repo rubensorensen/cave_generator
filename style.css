@@ -1,0 +1,23 @@
+:root {
+    --color-bg: rgba(51, 51, 51, 1.0);
+    --color-fg: rgba(255, 255, 255, 1.0);
+}
+
+html, body {
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 4vw;
+    color:var(--color-fg);
+    margin: .5em;
+}
+
+#game {
+    background-color:rgba(255, 255, 255, 1.0)
+}
